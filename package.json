@@ -1,6 +1,6 @@
 {
   "name": "@llmvin/winecode",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Wine Code by llm.vin - AI-powered development assistant that works like Claude",
   "main": "index.js",
   "bin": {
@@ -23,7 +23,13 @@
     "readline": "^1.3.0",
     "strip-ansi": "^6.0.1"
   },
-  "keywords": ["ai", "cli", "development", "assistant", "claude"],
+  "keywords": [
+    "ai",
+    "cli",
+    "development",
+    "assistant",
+    "claude"
+  ],
   "author": "llm.vin",
   "license": "MIT",
   "repository": {
