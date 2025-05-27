@@ -19,12 +19,10 @@ An AI-powered CLI development assistant that provides intelligent code assistanc
 
 ## Installation
 
-Clone the repository and install dependencies:
+Install globally via npm:
 
 ```bash
-git clone https://github.com/llm-vin/winecode
-cd winecode
-npm install
+npm install -g @llmvin/winecode
 ```
 
 ## Usage
@@ -32,12 +30,24 @@ npm install
 ### Starting Wine Code
 
 ```bash
-npm start
+winecode
 ```
 
-Or directly:
+Or using the short alias:
 ```bash
-node bin/cli.js
+wc
+```
+
+### Command Line Options
+
+```bash
+winecode [options]
+
+Options:
+  -m, --model <model>    specify AI model to use (default: grok-3-mini)
+  -k, --api-key <key>    API key for llm.vin
+  -h, --help             display help for command
+  -v, --version          display version number
 ```
 
 ### Interactive Commands
@@ -65,7 +75,10 @@ The assistant uses the following models by default:
 
 ```bash
 # Start the assistant
-npm start
+winecode
+
+# Or use the short alias
+wc
 
 # Example interactions:
 wine@code ❯ "Read the package.json file"

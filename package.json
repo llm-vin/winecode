@@ -1,10 +1,11 @@
 {
-  "name": "winecode",
+  "name": "@llmvin/winecode",
   "version": "1.0.0",
   "description": "Wine Code by llm.vin - AI-powered development assistant that works like Claude",
   "main": "index.js",
   "bin": {
-    "winecode": "./bin/cli.js"
+    "winecode": "./bin/cli.js",
+    "wc": "./bin/cli.js"
   },
   "scripts": {
     "start": "node bin/cli.js",
@@ -24,5 +25,10 @@
   },
   "keywords": ["ai", "cli", "development", "assistant", "claude"],
   "author": "llm.vin",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llm-vin/winecode.git"
+  },
+  "homepage": "https://github.com/llm-vin/winecode"
 }
