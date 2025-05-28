@@ -115,3 +115,6 @@ Thumbs.db
 
 # Claude Code specific
 .claude/
+
+# Training data
+data/

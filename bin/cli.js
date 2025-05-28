@@ -24,7 +24,7 @@ for (let i = 0; i < args.length; i++) {
     console.log('  -h, --help             display help for command');
     process.exit(0);
   } else if (args[i] === '--version' || args[i] === '-v') {
-    console.log('1.3.3');
+    console.log('1.4.0');
     process.exit(0);
   }
 }
